@@ -6,20 +6,21 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <title>Fragment</title>
+  <title>Fragment: an INORAN fansite</title>
 
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
   <meta name="viewport" content="width=device-width" />
 
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!-- Bootstrap core CSS     -->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/bootstrap.min.css">
-  <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/now-ui-kit.min.css?v1.3.0" rel="stylesheet"/>
-  <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/demo/demo.css" rel="stylesheet">
+  <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
+  <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/demo/demo.css" rel="stylesheet" />
 
+  <!--
   <style>
     .navbar .navbar-nav .nav-link:not(.btn) i.fa{
       font-size: 18px;
@@ -29,49 +30,65 @@
       width: 21px;
     }
   </style>
+  -->
 
 </head>
 
-<body class="index-page sidebar-collapse">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-default fixed-top navbar-transparent" color-on-scroll="200">
-        <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand" rel="tooltip" title="Fragment" data-placement="bottom" target="_blank">
-                    Fragment
-                </a>
-                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" data-nav-image="./assets/img/blurred-image-1.jpg">
-                <ul class="navbar-nav">
 
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow INORAN on Twitter" data-placement="bottom" href="https://twitter.com/INORAN_OFFICIAL" target="_blank">
-                            <i class="fa fa-twitter"></i>
-                            <p class="d-lg-none d-xl-none">Twitter</p>
+<body class="index-page sidebar-collapse">
+
+              <!-- Navbar -->
+              <nav class="navbar navbar-expand-lg bg-default fixed-top navbar-transparent" color-on-scroll="200">
+                <div class="container">
+                  <div class="navbar-translate">
+                    <a class="navbar-brand" href="#">Fragment</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-warning" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-bar bar1"></span>
+                      <span class="navbar-toggler-bar bar2"></span>
+                      <span class="navbar-toggler-bar bar3"></span>
+                    </button>
+                  </div>
+                  <div class="collapse navbar-collapse" id="example-navbar-warning">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#News">News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Tours">Tours</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <p>
+                            About
+                          </p>
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like INORAN on Facebook" data-placement="bottom" href="https://www.facebook.com/INORANOfficial" target="_blank">
-                            <i class="fa fa-facebook-square"></i>
-                            <p class="d-lg-none d-xl-none">Facebook</p>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Bio</a>
+                          <a class="dropdown-item" href="#">Disco</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" title="Follow INORAN on Twitter" href="https://twitter.com/INORAN_OFFICIAL" target="_blank">
+                          <i class="fab fa-twitter"></i>
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow INORAN on Instagram" data-placement="bottom" href="https://www.instagram.com/inoran_official/" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                            <p class="d-lg-none d-xl-none">Instagram</p>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" title="Like INORAN on Facebook" href="https://www.facebook.com/INORANOfficial" target="_blank">
+                          <i class="fab fa-facebook-square"></i>
                         </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End Navbar -->
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" title="Follow INORAN on Instagram" href="https://www.instagram.com/inoran_official/" target="_blank">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <!-- End Navbar -->
+
+
     <div class="wrapper">
         <div class="page-header clear-filter" filter-color="orange">
             <div class="page-header-image" data-parallax="true" style="background-image: url('ino5.jpg');">
@@ -85,72 +102,114 @@
             </div>
         </div>
 
-            <div class="section" id="carousel">
-                <div class="container">
-                  <div class="title">
-                    <h4 style="text-align:center;">New Release</h4>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-lg-8 col-md-12">
-                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                          <div class="carousel-item active">
-                            <img class="d-block" src="inmyoasiscover.jpg" alt="First slide">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>In My Oasis new album 2022.06.29</h5>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block" src="billboardsessions.jpg" alt="Second slide">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>In My Oasis Billboard Sessions live</h5>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block" src="anewvoice.jpg" alt="Third slide">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>LUNA SEA A New Voice live 2022.08.26, 27</h5>
-                            </div>
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <i class="now-ui-icons arrows-1_minimal-left"></i>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <i class="now-ui-icons arrows-1_minimal-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
 
-            <div class="section section-basic" id="basic-elements">
-                <div class="container">
-                    <div class="row">
-                        <div class="text-center col-12">
-                            <a href="https://mailchi.mp/382d443257db/fragment">
-                            <button class="btn btn-round" type="button">Sign up for updates</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            
+
+
+    <div class="section" id="News">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+              <h2 class="title">News</h2>
+              <img class="d-block" src="inmyoasiscover.jpg" alt="First slide">
+                <h5>New album "In My Oasis" released 2022.06.29</h5>
             </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="section" id="Tours">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">Tours</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block" src="billboardsessions.jpg" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>In My Oasis Billboard Sessions live</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="anewvoice.jpg" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>LUNA SEA A New Voice live 2022.08.26, 27</h5>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <i class="now-ui-icons arrows-1_minimal-left"></i>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <i class="now-ui-icons arrows-1_minimal-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
         
-        <footer class="footer" data-background-color="black">
-            <div class="container">
-                <div class="copyright">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>, Designed and coded by <a href="https://github.com/kartmohd"><u>kartmohd</u></a>.
-                </div>
+  <div class="section section-signup" style="background-image: url('assets/img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 700px;">
+    <div class="container">
+      <div class="row">
+        <div class="card card-signup" data-background-color="gray">
+          <form class="form" method="" action="">
+            <div class="card-header text-center">
+              <h3 class="card-title title-up">Sign up for updates</h3>
             </div>
+            <div class="card-body">
+              <div class="input-group no-border">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="now-ui-icons users_circle-08"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="input-group no-border">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="now-ui-icons ui-1_email-85"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Email...">
+              </div>
+              <!-- If you want to add a checkbox to this form, uncomment this code -->
+              <!-- <div class="checkbox">
+            <input id="checkboxSignup" type="checkbox">
+              <label for="checkboxSignup">
+              Unchecked
+              </label>
+            </div> -->
+            </div>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-default btn-round btn-lg">Subscribe</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col text-center">
+        <a href="examples/login-page.html" class="btn btn-link" target="_blank">View Login Page</a>
+      </div>
+    </div>
+  </div>
+
+        <footer class="footer" data-background-color="black">
+          <div class="container">
+            <div class="copyright" id="copyright">
+              &copy;
+              <script>
+                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+              </script>, Designed and coded by <a href="https://github.com/kartmohd"><u>kartmohd</u></a>.
+            </div>
+            </div>
+          </div>
         </footer>
 
     </div>
